@@ -1,5 +1,12 @@
+import HomePage from './components/HomePage'
 import './App.css'
 
-const App = () => <div>Hello World</div>
+function App() {
+  return (
+    <div className="App">
+      <HomePage />
+    </div>
+  )
+}
 
 export default App
